@@ -12,74 +12,74 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 During the processing the mean and standard deviation values were extracted and computed in the level of subjects and activities.
 
   A data frame with 180 observations on the following 68 variables.
-    \item{\code{Subject}}{a numeric vector} 1-30 -number of voluntioers
-    \item{\code{ActivityText}}{a factor with levels \code{LAYING} \code{SITTING} \code{STANDING} \code{WALKING} \code{WALKING_DOWNSTAIRS} \code{WALKING_UPSTAIRS}}
-    \item{\code{tBodyAcc_mean_X}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAcc_mean_Y}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAcc_mean_Z}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tGravityAcc_mean_X}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tGravityAcc_mean_Y}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tGravityAcc_mean_Z}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccJerk_mean_X}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccJerk_mean_Y}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccJerk_mean_Z}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyro_mean_X}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyro_mean_Y}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyro_mean_Z}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroJerk_mean_X}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroJerk_mean_Y}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroJerk_mean_Z}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccMag_mean}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tGravityAccMag_mean}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccJerkMag_mean}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroMag_mean}}{a numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroJerkMag_mean}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAcc_mean_X}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAcc_mean_Y}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAcc_mean_Z}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAccJerk_mean_X}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAccJerk_mean_Y}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAccJerk_mean_Z}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyGyro_mean_X}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyGyro_mean_Y}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyGyro_mean_Z}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAccMag_mean}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyBodyAccJerkMag_mean}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyBodyGyroMag_mean}}{a numeric vector normalized between -1 and 1}
-    \item{\code{fBodyBodyGyroJerkMag_mean}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAcc_std_X}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAcc_std_Y}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAcc_std_Z}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tGravityAcc_std_X}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tGravityAcc_std_Y}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tGravityAcc_std_Z}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccJerk_std_X}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccJerk_std_Y}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccJerk_std_Z}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyro_std_X}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyro_std_Y}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyro_std_Z}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroJerk_std_X}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroJerk_std_Y}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroJerk_std_Z}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccMag_std}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tGravityAccMag_std}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyAccJerkMag_std}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroMag_std}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{tBodyGyroJerkMag_std}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAcc_std_X}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAcc_std_Y}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAcc_std_Z}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAccJerk_std_X}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAccJerk_std_Y}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAccJerk_std_Z}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyGyro_std_X}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyGyro_std_Y}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyGyro_std_Z}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyAccMag_std}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyBodyAccJerkMag_std}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyBodyGyroMag_std}}{a  numeric vector normalized between -1 and 1}
-    \item{\code{fBodyBodyGyroJerkMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{Subject}}{a numeric vector} 1-30 -number of voluntioers
+    *\item{\code{ActivityText}}{a factor with levels \code{LAYING} \code{SITTING} \code{STANDING} \code{WALKING} \code{WALKING_DOWNSTAIRS} \code{WALKING_UPSTAIRS}}
+    *\item{\code{tBodyAcc_mean_X}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAcc_mean_Y}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAcc_mean_Z}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tGravityAcc_mean_X}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tGravityAcc_mean_Y}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tGravityAcc_mean_Z}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccJerk_mean_X}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccJerk_mean_Y}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccJerk_mean_Z}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyro_mean_X}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyro_mean_Y}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyro_mean_Z}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroJerk_mean_X}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroJerk_mean_Y}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroJerk_mean_Z}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccMag_mean}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tGravityAccMag_mean}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccJerkMag_mean}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroMag_mean}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroJerkMag_mean}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAcc_mean_X}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAcc_mean_Y}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAcc_mean_Z}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAccJerk_mean_X}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAccJerk_mean_Y}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAccJerk_mean_Z}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyGyro_mean_X}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyGyro_mean_Y}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyGyro_mean_Z}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAccMag_mean}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyBodyAccJerkMag_mean}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyBodyGyroMag_mean}}{a numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyBodyGyroJerkMag_mean}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAcc_std_X}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAcc_std_Y}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAcc_std_Z}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tGravityAcc_std_X}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tGravityAcc_std_Y}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tGravityAcc_std_Z}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccJerk_std_X}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccJerk_std_Y}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccJerk_std_Z}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyro_std_X}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyro_std_Y}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyro_std_Z}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroJerk_std_X}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroJerk_std_Y}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroJerk_std_Z}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tGravityAccMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyAccJerkMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{tBodyGyroJerkMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAcc_std_X}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAcc_std_Y}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAcc_std_Z}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAccJerk_std_X}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAccJerk_std_Y}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAccJerk_std_Z}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyGyro_std_X}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyGyro_std_Y}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyGyro_std_Z}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyAccMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyBodyAccJerkMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyBodyGyroMag_std}}{a  numeric vector normalized between -1 and 1}
+    *\item{\code{fBodyBodyGyroJerkMag_std}}{a  numeric vector normalized between -1 and 1}
 
 ##Feature Selection 
 =================
@@ -100,23 +100,23 @@ fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fB
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+*tBodyAcc-XYZ
+*tGravityAcc-XYZ
+*tBodyAccJerk-XYZ
+*tBodyGyro-XYZ
+*tBodyGyroJerk-XYZ
+*tBodyAccMag
+*tGravityAccMag
+*tBodyAccJerkMag
+*tBodyGyroMag
+*tBodyGyroJerkMag
+*fBodyAcc-XYZ
+*fBodyAccJerk-XYZ
+*fBodyGyro-XYZ
+*fBodyAccMag
+*fBodyAccJerkMag
+*fBodyGyroMag
+*fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
